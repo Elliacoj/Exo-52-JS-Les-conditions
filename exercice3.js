@@ -1,11 +1,14 @@
 /* Modifier le code ci dessous pour réaliser l'exercice */
-let x;
+let x = prompt("rentrez une valeur pour x");
 let y;
 
-x = 2;
 y = 3;
 
-if (x > y) {
+if (x == y) {
+    document.getElementById('monDiv').innerHTML = "La variable x est égal à la variable y";
+}
+
+else if (x > y){
     document.getElementById('monDiv').innerHTML = "La variable x est supérieure à la variable y";
 }
 
